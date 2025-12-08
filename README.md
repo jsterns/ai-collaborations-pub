@@ -43,12 +43,14 @@ Ready to proceed.
 
 **Trigger:** "idea box: [your idea]" or "capture in the idea box: [your idea]"
 
-**Action:** Since Claude can't commit directly, respond with:
+**Action:** Since Claude can't commit directly, generate an 8-char hex ID and respond with:
 
 ```
+📥 Pending capture: [id]: [short title]
+
 [*CAPTURE_QUEUE*]
 > ID: a1b2c3d4
-> 2025-12-08 11:42:37
+> 2025-12-08
 > Title: [short title]
 > [description]
 
@@ -56,6 +58,8 @@ Ready to proceed.
 ```
 
 The `[*CAPTURE_QUEUE*]` marker and quote block format enable reliable search without false positives.
+
+The ID will be preserved when the item is committed, so you can reference it later (e.g., "let's revisit a1b2c3d4").
 
 ---
 
@@ -81,4 +85,4 @@ For these operations, use Claude with MCP GitHub integration enabled.
 
 ---
 
-*Version: 2025-12-08 16:35:00 UTC*
+*Version: 2025-12-08 17:45:00 UTC*
