@@ -46,8 +46,6 @@ Ready to proceed.
 **Action:** Since Claude can't commit directly, respond with:
 
 ```
-📥 Pending capture: [short title]
-
 [*CAPTURE_QUEUE*]
 > ID: a1b2c3d4
 > 2025-12-08 11:42:37
