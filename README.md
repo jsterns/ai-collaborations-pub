@@ -27,7 +27,7 @@ Standard workflows for Claude collaboration when working in environments without
 **Action:** Claude reads this file (via web_fetch) and responds:
 
 ```
-✓ Standard workflow loaded (public fallback)
+✓ Standard workflow loaded (ai-collaborations-pub @ [version from footer])
 
 Triggers active:
   • "idea box:" → pending capture (queued for later commit)
@@ -81,4 +81,4 @@ For these operations, use Claude with MCP GitHub integration enabled.
 
 ---
 
-*Last updated: 2025-12-08*
+*Version: 2025-12-08 16:35:00 UTC*
