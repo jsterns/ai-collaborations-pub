@@ -47,20 +47,17 @@ Ready to proceed.
 
 ```
 📥 Pending capture: [short title]
-ID: capture-[8-char-uuid]
 
----
-### YYYY-MM-DD: Short title
-
-[Content formatted for later commit]
-
-**Status:** new
----
+[*CAPTURE_QUEUE*]
+> ID: a1b2c3d4
+> 2025-12-08 11:42:37
+> Title: [short title]
+> [description]
 
 ⏳ Queued—say "process pending captures" in a GitHub-enabled session to commit.
 ```
 
-The ID serves as a searchable anchor. When you're next in an MCP-enabled session, say "process pending captures" to commit queued items.
+The `[*CAPTURE_QUEUE*]` marker and quote block format enable reliable search without false positives.
 
 ---
 
